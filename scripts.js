@@ -14,7 +14,7 @@ function update (){
 function render (){
 
     //clears the canvas
-    context.clearRect(0,0,canvas.style.width,canvas.style.height);
+    context.clearRect(0,0,1500,670);
 
     //sets refresh rate to monitor refresh rate
     requestAnimationFrame(render);
